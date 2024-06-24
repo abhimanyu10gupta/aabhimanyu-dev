@@ -44,7 +44,7 @@ const LandingPage = () => {
                 </div>
                 <div className='flex basis-5/6 justify-center flex-col m-auto font-play'>
                     <div className='text-[16rem] leading-none'>
-                        DON'T <span className='text-[12rem] leading-none font-dance'>stop</span>
+                        DON&apos;T <span className='text-[12rem] leading-none font-dance'>stop</span>
                     </div>
                     <div className='text-[16rem] leading-none text-end'>
                         CREATING
