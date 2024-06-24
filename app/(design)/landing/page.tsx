@@ -21,7 +21,7 @@ const LandingPage = () => {
                     <div className='basis-1/6 '>
                         {getDate()}
                     </div>
-                    <div className=''>
+                    <div className='hidden md:block '>
                         DAILY <br/> REMINDER
                     </div>
                     <div className=''>
@@ -51,7 +51,7 @@ const LandingPage = () => {
                     </div>
                 </div>
                 <div className='flex basis-1/12 justify-between'>
-                    <div className=''>
+                    <div className='hidden md:block'>
                         FULL STACK
                     </div>
                     <div className=''>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Dancing_Script, Cinzel, Playfair_Display, Caveat } from "next/font/google";
 import "./globals.css";
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
 
 const dance = Dancing_Script({ 
   subsets: ["latin"],
@@ -47,7 +48,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="G-6MBE9VMLKX" />
       <body className={`${play.variable} ${caveat.variable}`}>{children}</body>
+
     </html>
   );
 }
