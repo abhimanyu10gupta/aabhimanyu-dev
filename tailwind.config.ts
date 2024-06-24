@@ -8,10 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      keyframes: {
+        wave: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        }
+      },
+      animation: {
+        bgWave: ''
+      },
+      fontFamily: {
+        dance: ['var(--font-dance)'],
+        cinzel: ['var(--font-cinzel)'],
+        play: ['var(--font-play)'],
+        caveat: ['var(--font-caveat)'],
+
       },
     },
   },
